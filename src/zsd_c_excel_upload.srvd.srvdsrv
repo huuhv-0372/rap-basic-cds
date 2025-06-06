@@ -1,0 +1,4 @@
+@EndUserText.label: 'Projection CDS'
+define service ZSD_C_EXCEL_UPLOAD {
+  expose ZJH_C_EXCEL_UPLOAD;
+}

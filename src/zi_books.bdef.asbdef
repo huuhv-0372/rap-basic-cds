@@ -1,0 +1,16 @@
+managed implementation in class zbp_i_books unique;
+strict ( 2 );
+//extensible;
+
+
+define behavior for ZI_BOOKS //alias <alias_name>
+persistent table zjh_books
+lock master
+authorization master ( instance )
+//etag master <field_name>
+{
+  create ( authorization : global );
+  update;
+  delete;
+  field ( readonly ) TravelId, BookingId;
+}

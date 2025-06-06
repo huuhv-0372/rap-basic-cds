@@ -1,0 +1,17 @@
+@EndUserText.label: 'Days of the week'
+define type ZTY_Definition_enum: abap.int1 enum {
+      @EndUserText.label: 'Monday' 
+      MON = initial; 
+      @EndUserText.label: 'Tuesday' 
+      TUE =       1; 
+      @EndUserText.label: 'Wednesday' 
+      WED =       2; 
+      @EndUserText.label: 'Thursday' 
+      THU =       3; 
+      @EndUserText.label: 'Friday' 
+      FRI =       4; 
+      @EndUserText.label: 'Saturday' 
+      SAT =       5; 
+      @EndUserText.label: 'Sunday'
+      SUN =       6;
+}

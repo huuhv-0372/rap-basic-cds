@@ -1,0 +1,18 @@
+@Metadata.layer: #CORE
+
+@UI: {
+  headerInfo: { typeName: 'ZIBooks',
+                typeNamePlural: 'ZI_Books',
+                title: { type: #STANDARD, label: 'Travel', value: 'BookingId' } }
+              }
+annotate entity ZI_BOOKS with
+{
+    @UI.facet: [{ id:            'Booking',
+                 purpose:       #STANDARD,
+                 type:          #IDENTIFICATION_REFERENCE,
+                 label:         'Booking',
+                 position:      10 }]
+                 
+    @UI: { identification: [ { position: 10, label: 'Booking ID'  } ] }
+  BookingId;
+}

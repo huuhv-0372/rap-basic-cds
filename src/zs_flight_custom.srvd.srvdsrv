@@ -1,0 +1,4 @@
+@EndUserText.label: 'Service definition from custom entity'
+define service ZS_FLIGHT_CUSTOM {
+  expose ZI_FIGHTER_CUSTOM as FLIGHTER;
+}

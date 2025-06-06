@@ -1,0 +1,12 @@
+@EndUserText.label: 'Access Control for Books'
+@MappingRole: true
+define role ZI_BOOKS {
+    grant
+        select
+            on
+                ZI_BOOKS
+                    where
+                        CurrencyCode = 'EUR';
+                        
+                        
+}

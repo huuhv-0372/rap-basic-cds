@@ -1,0 +1,2 @@
+@EndUserText.label: 'CDS Type definition'
+define type ZTY_Definition: abap.char( 10 );

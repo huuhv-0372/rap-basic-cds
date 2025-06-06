@@ -1,0 +1,15 @@
+managed implementation in class zbp_jh_i_excel_upload unique;
+strict ( 2 );
+
+define behavior for ZJH_I_EXCEL_UPLOAD //alias <alias_name>
+persistent table zjh_excel_upload
+lock master
+authorization master ( instance )
+//etag master <field_name>
+{
+  create ( authorization : global );
+  update;
+  delete;
+//  field ( readonly ) upload_id;
+  action upload_excel result [1] $self;
+}

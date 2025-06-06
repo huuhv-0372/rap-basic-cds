@@ -1,0 +1,4 @@
+@EndUserText.label: 'Abtract Entity'
+define service ZS_ABTRACT {
+  expose ZI_ABTRACT_BOOKS;
+}

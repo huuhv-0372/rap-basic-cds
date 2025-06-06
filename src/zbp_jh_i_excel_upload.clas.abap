@@ -1,0 +1,5 @@
+CLASS zbp_jh_i_excel_upload DEFINITION PUBLIC ABSTRACT FINAL FOR BEHAVIOR OF zjh_i_excel_upload.
+ENDCLASS.
+
+CLASS zbp_jh_i_excel_upload IMPLEMENTATION.
+ENDCLASS.

@@ -1,0 +1,4 @@
+@EndUserText.label: 'ZJH_I_EXCEL_UPLOAD'
+define service ZSD_I_EXCEL_UPLOAD {
+  expose ZJH_I_EXCEL_UPLOAD;
+}

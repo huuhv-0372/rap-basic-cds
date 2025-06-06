@@ -1,0 +1,4 @@
+@EndUserText.label: 'Service define for ZI_BOOKS cds'
+define service ZUI_BOOKS {
+  expose ZI_BOOKS;
+}
